@@ -3,12 +3,6 @@
 require "pry"
 def key_for_min_value(name_hash)
     lowest = 0
-    array = []
     name_hash.collect do |name, value|
-      array << value
-
-      end
-      lowest = array[0]
-      binding.pry
-    
+      
 end
