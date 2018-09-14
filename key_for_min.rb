@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
     name_hash.collect do |name, value|
       array = value
       end
-      # array.sort do |x,y|
-        x <=> y
-      end
+      # # array.sort do |x,y|
+      #   x <=> y
+      # end
       return array[0]
 end
