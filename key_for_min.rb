@@ -9,5 +9,5 @@ def key_for_min_value(name_hash)
       # # array.sort do |x,y|
       #   x <=> y
       # end
-      return array[0]
+      # return array[0]
 end
