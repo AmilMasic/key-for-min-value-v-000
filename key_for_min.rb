@@ -2,12 +2,11 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-    array = []
+    array = ""
     name_hash.collect do |name, value|
-      array = value
+      if value <= (0..-1)name_hash
+        array = name
       end
-      # # array.sort do |x,y|
-      #   x <=> y
-      # end
-      # return array[0]
+      name
+    
 end
